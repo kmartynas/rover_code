@@ -1,3 +1,6 @@
+//images taken from: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Manual_Layout.svg/330px-Manual_Layout.svg.png
+//and http://cdn.onlinewebfonts.com/svg/img_413513.png
+
 import processing.serial.*;
 Serial myPort;
 String gearStatus="Gear: N";
