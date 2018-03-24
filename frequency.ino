@@ -53,7 +53,7 @@ ISR(ADC_vect) {//when new ADC value ready
 
   prevData = newData;//store previous value
   newData = ADCH;//get value from A0
-  if (prevData < 10 && newData >=11){//if increasing and crossing midpoint
+  if (prevData < 127 && newData >=128){//if increasing and crossing midpoint
     period = timer;//get period
     timer = 0;//reset timer
   }
